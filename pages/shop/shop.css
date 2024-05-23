@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+:root{
+--main-color: #2f2721;
+--primary-color: #d3ad7f;
+--light-white: #fff6eb;
+--light-gray: #ccc;
+--black: #13131a;
+--white: #fff;
+--gray: #444;
+--orange: #ffaa42;
+--border: .1rem solid rgba(255,255,255,.3);
+}
+
+*{
+font-family: 'Poppins',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+border: none;
+text-decoration: none;
+transition: .2s linear;
+}
+
+html{
+font-size:62.5%;
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+
+
+html::-webkit-scrollbar{
+width: .8rem;
+}
+
+html::-webkit-scrollbar-trak{
+background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+background: var(--primary-color);
+}
+
+section{
+padding: 2rem 7%;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--main-color);
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header .logo{
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color : var(--white);
+    font-weight: 800;
+}
+    
+.header .logo i{
+    margin-right:1.2rem;
+}
+    
+.header .navbar{
+    position: relative;
+    }
+    
+    .header .navbar #close-navbar{
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 4rem;
+    cursor:pointer;
+    color: var(--gray);
+    display:none;
+}
+
+.header .navbar a{
+    margin-right: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--white);
+    }
+    
+.header .navbar a:hover{
+    color: var(--primary-color);
+}
+
+.heading{
+    margin-top:5rem;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    }
+    .heading::after{
+    content: '';
+    margin: 0 auto;
+    display: block;
+    width: 8rem;
+    background-color: var(--main-color);
+    border: .3rem solid var(--main-color);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}

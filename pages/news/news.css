@@ -1,0 +1,260 @@
+html, body { 
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font: 1em/1 "Georgia", serif;
+    background: #eee;
+  }
+  
+  body { margin-top: 60px;}
+
+  .header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--main-color);
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    }
+    
+    .header .logo{
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color : var(--white);
+    font-weight: 800;
+    }
+    
+    .header .logo i{
+    margin-right:1.2rem;
+    }
+    
+    .header .navbar{
+    position: relative;
+    }
+    
+    .header .navbar #close-navbar{
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 4rem;
+    cursor:pointer;
+    color: var(--gray);
+    display:none;
+    }
+    
+    
+    .header .navbar a{
+    margin-right: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--white);
+    }
+    
+    .header .navbar a:hover{
+        color: var(--primary-color);
+    }
+    
+    .header .icons div{
+    margin-left: 1.5rem;
+    font-size:2.5rem;
+    cursor:pointer;
+    color: var(--white);
+    }
+    
+    .header .icons div:hover{
+    color: var(--primary-color);
+    }
+    
+    .header #menu-btn{
+    display: none;
+    }
+  
+  .head-wrap {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background: #0aa8c4;
+    height: 60px;  
+    margin: 0 auto;
+    background: url(https://dl.dropboxusercontent.com/u/4540139/webdev/patterns/classy_fabric.png);
+    vertical-align: middle;
+    top: 0;
+    z-index: 1000000000000000000;
+  }
+  
+  .head-content{
+    display: inline-block;
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;  
+    color: #fff;
+    text-align: left;
+  }
+  
+  .head-content h1, .head-content p { 
+    display: inline-block; 
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .head-content h1 { font-size: 28px; top: 13px;}
+  
+  .head-content p { float: right; position: relative; top: 20px;}
+  
+  .footer-wrap {
+    display: block;
+    position: relative;
+    background: #444;
+    height: 50px;  
+    margin: 0 auto;
+    background: url(https://dl.dropboxusercontent.com/u/4540139/webdev/patterns/classy_fabric.png);
+    vertical-align: middle;
+  }
+  
+  .footer-content {
+    display: inline-block;
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;  
+    color: #fff;
+    text-align: left;
+  }
+  
+  .footer-content h1, footer-content p, footer-content h6 { 
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  .footer-content h1 {
+   font-size: 22px; top: 13px; 
+  }
+  
+  .footer-content p {
+   font-size: 9px; position: relative; text-align: center; bottom: 10px;
+  }
+  
+  .footer-content h6 {
+   float: right; position: relative; bottom: 33px; 
+  }
+  
+  .content-100 {
+    width: 100%;
+    height: 250px;
+    color: #ccc;
+    background-color: #eeb7e7;
+    background: url(https://dl.dropboxusercontent.com/u/4540139/webdev/patterns/grey_wash_wall.png);
+    text-shadow: 0px 1px 1px #222;
+  }
+  
+  .content-100 {
+    width: 100%;
+    height: 250px;
+    color:#292929;
+    background: url(https://dl.dropboxusercontent.com/u/4540139/webdev/patterns/retina_wood.png);
+    text-shadow: 1px 1px 1px #eee;
+    box-shadow: insert 0 -1px 0px #ccc;
+  }
+  
+  
+  .content-100 img { width: 100%; position: relative; height: auto; BOTTOM: 30PX; overflo: hidden;}
+  
+  .content-100-inside {
+    margin: 0 auto;
+    padding-top:25px;
+    width: 960px;
+    height: 100%;
+    overflow: hidden;  
+    text-align: left;
+  }
+  
+  .content-100-inside-1, .content-100-inside-2 {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+  
+  .content-100-inside-1 { width: 600px; top: 45px;}
+  .content-100-inside-1 h1 { font-size: 4.6em;}
+  .content-100-inside-1 h2 { font-size: 1.4em;}
+  
+  .content-100-inside-2 {width: 270px; hight: 200px; float: right;}
+  .content-100-inside-2 h2 { font-size: 1.25em; padding-bottom: 7px; font-weight: bold;}
+  .content-100-inside-2 p { width:250px; font-size: 0.9em; letter-spacing: 1px; line-height: 1.1em; padding-bottom: 12px;}
+  
+  .content-area-fixed {
+    margin: 0 auto;
+    width: 960px;
+    min-height: 700px;
+    background: url(https://dl.dropboxusercontent.com/u/4540139/webdev/patterns/debut_light.png);
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  
+  .content-paragraph {  
+    display: block;
+    position: relative;  
+    
+  }
+  .content-paragraph article {
+    margin: 0 auto;
+    padding: 24px 0 24px 0;
+    width: 95%;
+    border-bottom: 1px solid #bbb;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .content-paragraph article img {
+   width: 100%;
+   box-shadow: inset -1px 1px 1px #000, inset 1px 1px 1px #000;
+  }
+  
+  .author-img-caption {
+    bottom: 30px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .content-paragraph header {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+  .content-paragraph header h1 {
+    display: block; 
+    font-size: 2.25em;
+  }
+  .content-paragraph footer h1, .content-paragraph footer p {
+    display: inline-block; 
+    position: relative;
+    font-style: italic;
+    font-size: 0.8em;
+  }
+  
+  .content-paragraph p {
+    padding: 1em;
+    line-height: 1.15em;
+    margin: 0px;  
+    background: #f7f7f7;  
+    -moz-column-count:3; /* Firefox */
+    -webkit-column-count: 3; /* Safari and Chrome */
+    column-count:3;
+  }
+  
+  .content-paragraph blockquote {
+    text-align: center;
+    background: #f7f7f7;
+    padding: 28px 0 24px 0;
+    width: 100%;
+    font-size: 1.4em;
+    font-style: italic;
+  
+  }

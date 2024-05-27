@@ -26,24 +26,11 @@ transition: .2s linear;
 html{
 font-size:62.5%;
 overflow-x: hidden;
-scroll-behavior: smooth;
 }
 
-
-html::-webkit-scrollbar{
-width: .8rem;
-}
-
-html::-webkit-scrollbar-trak{
-background: transparent;
-}
 
 html::-webkit-scrollbar-thumb{
 background: var(--primary-color);
-}
-
-section{
-padding: 2rem 7%;
 }
 
 .header{
